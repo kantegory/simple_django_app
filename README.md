@@ -3,8 +3,8 @@
 1. Make git clone and go to project dir
 
 ```bash
-git clone https://github.com/kantegory/web.git
-mv web/lab01 ../ && cd lab01/django_project_dobryakov
+git clone https://github.com/kantegory/simple_django_app.git
+cd simple_django_app
 ```
 
 2. Install all requirments
@@ -14,6 +14,7 @@ make init
 
 3. Make migrations
 ```bash
+cd django_project_dobryakov
 make migrate
 ```
 
@@ -22,8 +23,8 @@ make migrate
 make run
 ```
 
-*Notice:* if you need update requirments:
+*Notice:* if you need update requirements:
 ```bash
-make requirments
+make requirements
 ```
 
