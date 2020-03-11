@@ -2,3 +2,4 @@ venv/**
 **pycache**
 config.py
 *.*~
+*.sqlite3
