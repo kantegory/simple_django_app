@@ -8,5 +8,5 @@ init:
 	python3 -m venv venv && pip3 install -r requirments.txt
 
 requirments:
-	pip3 freeze > requirments.txt
+	pip3 freeze > ../requirments.txt
 
