@@ -7,9 +7,11 @@
 <body>
 	
 	<ul style="list-style:none">
-		<li><b>Car:</b> {{ auto }}</li>
+		{% for auto in autos %}
+		<li style="margin-top: 0.5rem !important"><b>Car:</b> {{ auto }}</li>
 		<li><b>Color:</b> {{ auto.color }}</li>
 		<li><b>Government number:</b> {{ auto.gov_number }}</li>
+		{% endfor %}
 	</ul>
 	
 	
